@@ -1,0 +1,13 @@
+Follow these steps to set up the Employee Management System on your device:
+
+1. Install **Python 3.4.0** (or later) on your device (if you do not already have Python installed).
+2. Install **MySQL** on your device (if you do not already have MySQL installed).
+3. Ensure that the `tkinter` library is installed in your Python environment. This library is used for building the graphical user interface.
+   - Note: `tkinter` is often included by default in standard Python installations.
+4. Replace the `host`, `user`, and `password` variables in the `connectdb` function of the main code file with your actual MySQL credentials.
+   Example:
+            host = "localhost" # Replace with your MySQL host
+            user = "root" # Replace with your MySQL username
+            password = "yourpassword" # Replace with your MySQL password
+
+
